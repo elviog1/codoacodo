@@ -23,11 +23,7 @@ body{
     min-height: 100vh;
 }
 
-.banner-home{
-    /* background-color: red; */
-    position: absolute;
-    top: 300px;
-}
+
 
 .btn-next{
     width: 50px;
@@ -35,6 +31,12 @@ body{
 
 .buy:hover{
     background-color: rgb(43, 187, 43) !important;
+}
+
+.banner-home{
+    /* background-color: red; */
+    position: absolute;
+    top: 300px;
 }
 
 .img-home{
@@ -81,10 +83,15 @@ textarea{
     height: 100px;
 }
 
-form > div > input{
+.inputs-form{
     padding: 5px;
     border-radius: 6px;
     width: 250px;
+}
+.email-input{
+    padding: 5px;
+    border-radius: 6px;
+    width: auto;
 }
 
 .form-title{
